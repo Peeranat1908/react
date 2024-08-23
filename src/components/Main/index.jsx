@@ -1,5 +1,9 @@
 import React from "react";
 import a from "../../assets/a.jpg";
+import product from "../../assets/product.png";
+import product2 from "../../assets/product2.png";
+import logo from "../../assets/logo.png"
+import product3 from "../../assets/product3.png"
 function Main() {
   return (
     // <div className='container mx-auto max-w-[1344px]'>
@@ -14,17 +18,32 @@ function Main() {
       <div>
         <div className="diff aspect-[16/9]">
           <div className="diff-item-1">
+            <img
+              alt="daisy"
+              src={logo}
+            />
+          </div>
+          <div className="diff-item-2">
+            <img
+              alt="daisy"
+              src={logo}
+            />
+          </div>
+          <div className="diff-resizer"></div>
+        </div>
+        {/* <div className="diff aspect-[16/9]">
+          <div className="diff-item-1">
             <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center">
-              PMS Jelly
+              Warnjai
             </div>
           </div>
           <div className="diff-item-2">
             <div className="bg-base-200 text-9xl font-black grid place-content-center">
-              PMS Jelly
+              Warnjai
             </div>
           </div>
           <div className="diff-resizer"></div>
-        </div>
+        </div> */}
       </div>
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -38,16 +57,18 @@ function Main() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://image.makewebcdn.com/makeweb/m_1920x0/r9viYeHoP/BComplex/DHM_012_B_Complex_Jelly_for_kids_02_0.jpg?v=202311151122"
+                className="w-[300px] m-auto mt-4"
+                // src="https://image.makewebcdn.com/makeweb/m_1920x0/r9viYeHoP/BComplex/DHM_012_B_Complex_Jelly_for_kids_02_0.jpg?v=202311151122"
+                src={product}
                 alt="Shoes"
               />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Jelly for kids
+                Warnjai Product
                 <div className="badge badge-secondary">NEW</div>
               </h2>
-              <p>เด็กกินได้ผู้ใหญ่กินแล้วตาย</p>
+              <p>สูตรหวานน้อย</p>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline">Food</div>
                 <div className="badge badge-outline">Products</div>
@@ -64,16 +85,18 @@ function Main() {
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
               <img
-                src="https://image.makewebcdn.com/makeweb/r_409x409/r9viYeHoP/CalGrow/DHM_011_Cal_Grow_Plus_Jelly_Strip_02_0.jpg"
+                className="w-[300px] m-auto mt-4"
+                //src="https://image.makewebcdn.com/makeweb/r_409x409/r9viYeHoP/CalGrow/DHM_011_Cal_Grow_Plus_Jelly_Strip_02_0.jpg"
+                src={product2}
                 alt="Shoes"
               />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Jelly for adults
+                Warnjai Product
                 <div className="badge badge-secondary">NEW</div>
               </h2>
-              <p>ผู้ใหญ่กินได้เด็กกินดี</p>
+              <p>สูตรหวานปกติ</p>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline">Food</div>
                 <div className="badge badge-outline">Products</div>
@@ -89,8 +112,9 @@ function Main() {
           </div> */}
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <img
-                src="https://image.makewebcdn.com/makeweb/r_409x409/r9viYeHoP/BraindyJellyStrip/DBM_002_Braindy_Jelly_Strip_02_0.jpg?v=202311151122"
+              <img className="w-[300px] mt-4"
+                //src="https://image.makewebcdn.com/makeweb/r_409x409/r9viYeHoP/BraindyJellyStrip/DBM_002_Braindy_Jelly_Strip_02_0.jpg?v=202311151122"
+                src={product3}
                 alt="Shoes"
               />
             </figure>

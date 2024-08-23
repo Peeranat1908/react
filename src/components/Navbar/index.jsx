@@ -3,7 +3,7 @@ function Index() {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">PMS Jelly</a>
+        <a className="btn btn-ghost text-xl">Warnjai</a>
         <label className="flex cursor-pointer gap-2 mt-[2px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,6 +52,9 @@ function Index() {
           </li>
           <li>
             <a>Shop</a>
+          </li>
+          <li>
+            <a>Permium</a>
           </li>
         </div>
         {/* <div className="form-control">
